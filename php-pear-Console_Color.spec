@@ -20,9 +20,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-You can use Console_Color::convert to transform colorcodes like %r into ANSI
-control codes. print Console_Color::convert("%rHello World!%n"); would print
-"Hello World" in red, for example. 
+You can use Console_Color::convert to transform colorcodes like %r
+into ANSI control codes. print Console_Color::convert("%rHello
+World!%n"); would print "Hello World" in red, for example.
 
 %prep
 %setup -q -c
