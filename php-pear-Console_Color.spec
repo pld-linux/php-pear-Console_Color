@@ -1,5 +1,3 @@
-# ToDo:
-# - pl description
 %include	/usr/lib/rpm/macros.php
 %define		_class		Console
 %define		_subclass	Color
@@ -21,8 +19,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 You can use Console_Color::convert to transform colorcodes like %r
-into ANSI control codes. print Console_Color::convert("%rHello
-World!%n"); would print "Hello World" in red, for example.
+into ANSI control codes. 'print Console_Color::convert("%rHello
+World!%n");' would print "Hello World" in red, for example.
+
+%description -l pl
+Console_Color::convert mo¿na u¿ywaæ do przekszta³cania kodów kolorów
+typu %r na kody steruj±ce ANSI. Na przyk³ad 'print
+Console_Color::convert("%rHello World!%n");' wypisze "Hello World" na
+czerwono.
 
 %prep
 %setup -q -c
