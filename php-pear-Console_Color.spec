@@ -24,7 +24,7 @@ You can use Console_Color::convert to transform colorcodes like %r
 into ANSI control codes. 'print Console_Color::convert("%rHello
 World!%n");' would print "Hello World" in red, for example.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Console_Color::convert mo¿na u¿ywaæ do przekszta³cania kodów kolorów
