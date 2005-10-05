@@ -8,7 +8,7 @@ Summary:	%{_pearname} - easily use ANSI console colors in your application
 Summary(pl):	%{_pearname} - ³atwe u¿ycie kolorów ANSI w aplikacjach
 Name:		php-pear-%{_pearname}
 Version:	0.0.3
-Release:	2.2
+Release:	3
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
