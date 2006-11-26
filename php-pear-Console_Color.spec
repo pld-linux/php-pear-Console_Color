@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		Console
 %define		_subclass	Color
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - easily use ANSI console colors in your application
 Summary(pl):	%{_pearname} - ³atwe u¿ycie kolorów ANSI w aplikacjach
 Name:		php-pear-%{_pearname}
-Version:	0.0.3
-Release:	3
+Version:	1.0.1
+Release:	1
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	b764d888b3512a5a5795747ae69115cc
+# Source0-md5:	0ed565fb5b3f3ed2d604053d9e1adce6
 URL:		http://pear.php.net/package/Console_Color/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
