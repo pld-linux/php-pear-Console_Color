@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - easily use ANSI console colors in your application
-Summary(pl):	%{_pearname} - ≥atwe uøycie kolorÛw ANSI w aplikacjach
+Summary(pl.UTF-8):   %{_pearname} - ≈Çatwe u≈ºycie kolor√≥w ANSI w aplikacjach
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	1
@@ -28,9 +28,9 @@ World!%n");' would print "Hello World" in red, for example.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Console_Color::convert moøna uøywaÊ do przekszta≥cania kodÛw kolorÛw
-typu %r na kody steruj±ce ANSI. Na przyk≥ad 'print
+%description -l pl.UTF-8
+Console_Color::convert mo≈ºna u≈ºywaƒá do przekszta≈Çcania kod√≥w kolor√≥w
+typu %r na kody sterujƒÖce ANSI. Na przyk≈Çad 'print
 Console_Color::convert("%rHello World!%n");' wypisze "Hello World" na
 czerwono.
 
