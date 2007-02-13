@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - easily use ANSI console colors in your application
-Summary(pl.UTF-8):   %{_pearname} - łatwe użycie kolorów ANSI w aplikacjach
+Summary(pl.UTF-8):	%{_pearname} - łatwe użycie kolorów ANSI w aplikacjach
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	1
