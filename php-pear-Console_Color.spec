@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - easily use ANSI console colors in your application
 Summary(pl.UTF-8):	%{_pearname} - łatwe użycie kolorów ANSI w aplikacjach
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
+Version:	1.0.2
 Release:	1
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	0ed565fb5b3f3ed2d604053d9e1adce6
+# Source0-md5:	8fe454cb9d04b2bbe40bf06626217839
 URL:		http://pear.php.net/package/Console_Color/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
